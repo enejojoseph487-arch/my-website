@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Portal....</title>
+    <link rel="icon" href="tsu.jpg" />
+    <link rel="stylesheet" href="assignment.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <section id="Home">
+      <div class="container">
+        <header>
+          <div class="header">
+            <img src="tsu.jpg" alt="" />
+            <h1>TARABA STATE UNIVERSITY</h1>
+            <h1>WELCOME TO STUDENT REGISTRATION PORTAL</h1>
+          </div>
+        </header>
+
+        <nav>
+          <a href="#Home">Home</a>
+          <a href="#About">About</a>
+          <a href="#Courses">Courses</a>
+          <a href="#Registration">Registration</a>
+          <a href="#Contact">Contact</a>
+        </nav>
+        <section id="Registration">
+          <form>
+            <h3>
+              STUDENT REGISTRATION FORM <br />
+              PLEASE FILL THIS APPROPRIATELY
+            </h3>
+
+            <div class="row">
+              <div class="input-group">
+                <label for="firstname">First Name:</label>
+                <input
+                  id="firstname"
+                  type="text"
+                  placeholder="First Name"
+                  required
+                />
+              </div>
+
+              <div class="input-group">
+                <label for="lastname">Last Name:</label>
+                <input
+                  id="lastname"
+                  type="text"
+                  placeholder="Last Name"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="input-group">
+                <label for="email">Email:</label>
+                <input
+                  id="email"
+                  type="email"
+                  placeholder="@example.com"
+                  required
+                />
+              </div>
+
+              <div class="input-group">
+                <label for="phone">Phone Number:</label>
+                <input
+                  id="phone"
+                  type="tel"
+                  placeholder="Phone Number"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="input-group">
+                <label for="dob">Date of Birth:</label>
+                <input id="dob" type="date" required />
+              </div>
+              <div class="input-group">
+                <label for="state">State of Origin:</label>
+                <input
+                  id="state"
+                  type="text"
+                  placeholder="State of Origin"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="input-group">
+                <label for="password">Password:</label>
+                <input id="password" type="password" required />
+              </div>
+
+              <div class="input-group">
+                <label for="confirm-password">Confirm Password:</label>
+                <input
+                  id="confirm-password"
+                  type="password"
+                  required
+                /><br /><br />
+              </div>
+            </div>
+
+            <div class="row">
+              <div class=".input-group">
+                <label for="passport">upload passport</label>
+                <input type="file" /><br /><br />
+              </div>
+
+              <div class="input-group">
+                <label for="gender">Gender:</label>
+                <select id="gender">
+                  <option>Select Gender</option>
+                  <option>Male</option>
+                  <option>Female</option>
+                </select>
+              </div>
+            </div>
+            <!-- <br /><br /> -->
+
+            <label>
+              choose your favorite <br />
+              programming language:</label
+            >
+
+            <div class="row-radio">
+              <input type="radio" name="language" value="c++" />
+              <label for="c++">c++</label><br /><br />
+
+              <input type="radio" name="language" />
+              <label for="Java script">Java script</label><br /><br />
+
+              <input type="radio" name="language" />
+              <label for="Python">Python</label><br /><br />
+
+              <input type="radio" name="language" />
+              <label for="Java">Java</label>
+            </div>
+
+            <label for="department">Department:</label>
+            <select id="department">
+              <option>Choose your department</option>
+              <option>Computer Science</option>
+              <option>Biology</option>
+              <option>Geography</option>
+              <option>Chemistry</option>
+              <option>Sociology</option>
+            </select>
+
+            <br /><br />
+
+            Send Us a Message
+
+            <label for="message">Your Message</label><br />
+
+            <textarea
+              id="message"
+              cols="40"
+              rows="10"
+              placeholder="Type your message here"
+            ></textarea>
+
+            <br />
+
+            <button type="submit">SUBMIT</button>
+          </form>
+        </section>
+
+        <section id="Courses">
+          <h3>COURSES</h3>
+
+          <table border="1">
+            <thead>
+              <tr>
+                <th>Course Code</th>
+                <th>Course Name</th>
+                <th>Course Unit</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>CSC 101</td>
+                <td>Introduction to Computer Science</td>
+                <td>3</td>
+              </tr>
+
+              <tr>
+                <td>CSC 102</td>
+                <td>Web Development</td>
+                <td>2</td>
+              </tr>
+
+              <tr>
+                <td>CSC 103</td>
+                <td>Database System</td>
+                <td>3</td>
+              </tr>
+
+              <tr>
+                <td>CSC 104</td>
+                <td>Networking</td>
+                <td>2</td>
+              </tr>
+            </tbody>
+
+            <tfoot>
+              <tr>
+                <td>CSC 105</td>
+                <td>Software Engineering</td>
+                <td>3</td>
+              </tr>
+            </tfoot>
+          </table>
+        </section>
+
+        <section id="About">
+          <h2>ABOUT OUR SCHOOL</h2>
+
+          <p>
+            Taraba State University is dedicated to providing quality education
+            and developing responsible future leaders. The school was founded in
+            2005 and has grown to serve over 2,000 students. Our purpose is to
+            provide excellent education and promote academic excellence. We hope
+            to become a leading institution known for academic and moral
+            excellence.
+          </p>
+        </section>
+
+        <section id="Contact">
+          <h2>CONTACT</h2>
+
+          <a href="tel:+2347071130051"> Call for more enquiries </a>
+        </section>
+
+        <br />
+
+        <br /><br />
+
+        <audio src="music.m4a" controls></audio>
+
+        <br /><br />
+
+        <video src="video.mp4" controls width="500"></video> <br /><br /><br />
+
+        <footer>
+          <p class="copy-right">
+            &lt;&lt;&lt; &copy; 2026 Taraba state university. all right reserved
+            &lt;&lt;&lt;
+          </p>
+          <p>
+            <a href="https://www.facebook.com" target="_blank" rel="noreferrer"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+          </p>
+          <p>
+            <a
+              href="https://wa.me/2349151529209"
+              target="_blank"
+              rel="noreferrer"
+              ><i class="fa-brands fa-whatsapp"></i
+            ></a>
+          </p>
+          <p>
+            <a href="https://www.youtube.com" target="_blank" rel="noreferrer"
+              ><i class="fa-brands fa-youtube"></i
+            ></a>
+          </p>
+        </footer>
+      </div>
+    </section>
+  </body>
+</html>
